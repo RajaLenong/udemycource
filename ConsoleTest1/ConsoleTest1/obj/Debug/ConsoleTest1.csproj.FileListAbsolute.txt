@@ -1,0 +1,8 @@
+D:\Husein\Github\udemycource\ConsoleTest1\ConsoleTest1\bin\Debug\ConsoleTest1.exe.config
+D:\Husein\Github\udemycource\ConsoleTest1\ConsoleTest1\bin\Debug\ConsoleTest1.exe
+D:\Husein\Github\udemycource\ConsoleTest1\ConsoleTest1\bin\Debug\ConsoleTest1.pdb
+D:\Husein\Github\udemycource\ConsoleTest1\ConsoleTest1\obj\Debug\ConsoleTest1.csproj.AssemblyReference.cache
+D:\Husein\Github\udemycource\ConsoleTest1\ConsoleTest1\obj\Debug\ConsoleTest1.csproj.SuggestedBindingRedirects.cache
+D:\Husein\Github\udemycource\ConsoleTest1\ConsoleTest1\obj\Debug\ConsoleTest1.csproj.CoreCompileInputs.cache
+D:\Husein\Github\udemycource\ConsoleTest1\ConsoleTest1\obj\Debug\ConsoleTest1.exe
+D:\Husein\Github\udemycource\ConsoleTest1\ConsoleTest1\obj\Debug\ConsoleTest1.pdb

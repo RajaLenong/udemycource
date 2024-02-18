@@ -1,0 +1,11 @@
+D:\Husein\Github\udemycource\WfaTest1\WfaTest1\bin\Debug\WfaTest1.exe.config
+D:\Husein\Github\udemycource\WfaTest1\WfaTest1\bin\Debug\WfaTest1.exe
+D:\Husein\Github\udemycource\WfaTest1\WfaTest1\bin\Debug\WfaTest1.pdb
+D:\Husein\Github\udemycource\WfaTest1\WfaTest1\obj\Debug\WfaTest1.csproj.AssemblyReference.cache
+D:\Husein\Github\udemycource\WfaTest1\WfaTest1\obj\Debug\WfaTest1.csproj.SuggestedBindingRedirects.cache
+D:\Husein\Github\udemycource\WfaTest1\WfaTest1\obj\Debug\WfaTest1.Form1.resources
+D:\Husein\Github\udemycource\WfaTest1\WfaTest1\obj\Debug\WfaTest1.Properties.Resources.resources
+D:\Husein\Github\udemycource\WfaTest1\WfaTest1\obj\Debug\WfaTest1.csproj.GenerateResource.cache
+D:\Husein\Github\udemycource\WfaTest1\WfaTest1\obj\Debug\WfaTest1.csproj.CoreCompileInputs.cache
+D:\Husein\Github\udemycource\WfaTest1\WfaTest1\obj\Debug\WfaTest1.exe
+D:\Husein\Github\udemycource\WfaTest1\WfaTest1\obj\Debug\WfaTest1.pdb

@@ -1,0 +1,10 @@
+D:\Belajar\Github\udemycource\LatihanWpa2\LatihanWpa2\bin\Debug\LatihanWpa2.exe.config
+D:\Belajar\Github\udemycource\LatihanWpa2\LatihanWpa2\bin\Debug\LatihanWpa2.exe
+D:\Belajar\Github\udemycource\LatihanWpa2\LatihanWpa2\bin\Debug\LatihanWpa2.pdb
+D:\Belajar\Github\udemycource\LatihanWpa2\LatihanWpa2\obj\Debug\LatihanWpa2.csproj.AssemblyReference.cache
+D:\Belajar\Github\udemycource\LatihanWpa2\LatihanWpa2\obj\Debug\LatihanWpa2.Form1.resources
+D:\Belajar\Github\udemycource\LatihanWpa2\LatihanWpa2\obj\Debug\LatihanWpa2.Properties.Resources.resources
+D:\Belajar\Github\udemycource\LatihanWpa2\LatihanWpa2\obj\Debug\LatihanWpa2.csproj.GenerateResource.cache
+D:\Belajar\Github\udemycource\LatihanWpa2\LatihanWpa2\obj\Debug\LatihanWpa2.csproj.CoreCompileInputs.cache
+D:\Belajar\Github\udemycource\LatihanWpa2\LatihanWpa2\obj\Debug\LatihanWpa2.exe
+D:\Belajar\Github\udemycource\LatihanWpa2\LatihanWpa2\obj\Debug\LatihanWpa2.pdb

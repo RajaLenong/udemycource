@@ -1,0 +1,11 @@
+D:\Husein\Github\udemycource\KonversiCtoF\KonversiCtoF\bin\Debug\KonversiCtoF.exe.config
+D:\Husein\Github\udemycource\KonversiCtoF\KonversiCtoF\bin\Debug\KonversiCtoF.exe
+D:\Husein\Github\udemycource\KonversiCtoF\KonversiCtoF\bin\Debug\KonversiCtoF.pdb
+D:\Husein\Github\udemycource\KonversiCtoF\KonversiCtoF\obj\Debug\KonversiCtoF.csproj.AssemblyReference.cache
+D:\Husein\Github\udemycource\KonversiCtoF\KonversiCtoF\obj\Debug\KonversiCtoF.csproj.SuggestedBindingRedirects.cache
+D:\Husein\Github\udemycource\KonversiCtoF\KonversiCtoF\obj\Debug\KonversiCtoF.Form1.resources
+D:\Husein\Github\udemycource\KonversiCtoF\KonversiCtoF\obj\Debug\KonversiCtoF.Properties.Resources.resources
+D:\Husein\Github\udemycource\KonversiCtoF\KonversiCtoF\obj\Debug\KonversiCtoF.csproj.GenerateResource.cache
+D:\Husein\Github\udemycource\KonversiCtoF\KonversiCtoF\obj\Debug\KonversiCtoF.csproj.CoreCompileInputs.cache
+D:\Husein\Github\udemycource\KonversiCtoF\KonversiCtoF\obj\Debug\KonversiCtoF.exe
+D:\Husein\Github\udemycource\KonversiCtoF\KonversiCtoF\obj\Debug\KonversiCtoF.pdb

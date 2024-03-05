@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML Table</title>
+</head>
+<body>
+    <h1>Belajar HTML Table</h1>
+<table style="border: 1px solid black;">
+    <colgroup>
+        <col span="2" style="background-color: chartreuse;">
+        <col style="background-color: aqua;">
+    </colgroup>
+    <thead>
+        <tr>
+            <!--Fungsi colspan untuk melakukan merge antar kolom-->
+            <!--Angka 2 pada colspan berarti kolom 1 dan kolom 2 dilakukan merge-->
+            <th colspan="2">Nama</th>
+            <th>Nominal</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Ahmad</td>
+            <td>BCA</td>
+            <td>100000</td>
+        </tr>
+        <tr>
+            <td>Husein</td>
+            <td>BNI</td>
+            <td>50000</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <!--Fungsi rowspan untuk melakukan merge antar row atau baris-->
+            <!--Angka 2 pada rowspan berarti baris 1 dan baris 2 dilakukan merge-->
+            <td rowspan="2">Jumlah</td>
+            <td>Total</td>
+            <td>150000</td>
+        </tr>
+        <tr>
+            <td>Rata-rata</td>
+            <td>750000</td>
+        </tr>
+    </tfoot>
+</table>
+</body>
+</html>

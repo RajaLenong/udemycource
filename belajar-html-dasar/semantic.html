@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Semantic</title>
+
+    <style>
+        header{
+            background-color: aqua;
+            padding: 10px;
+            font-size: 20px;
+            text-align: center;
+            color: black;
+        }
+        nav{
+            background-color: aquamarine;
+            padding: 10px;
+        }
+        nav ul{
+            list-style-type: none;
+            overflow: hidden;
+        }
+        nav li{
+            float: left;
+        }
+        nav li a{
+            padding: 10px;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+        }
+        nav li a:hover{
+            background-color: orange;
+        }
+        article{
+            background-color: blanchedalmond;
+            padding: 5px;
+        }
+        section{
+            background-color: cadetblue;
+            padding: 5px;
+        }
+        summary{
+            background-color: coral;
+            padding: 5px;
+        }
+        footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Judul Halaman</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">Beranda</a></li>
+            <li><a href="">Artikel</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+    </nav>
+    <article>
+        <p>Ahmad Husein ganteng banget</p>
+    </article>
+    <section>
+        <p>Jomblo nekat</p>
+    </section>
+    <summary>
+        <details>Pliss lah Husein kamu tuh ganteng pake banget</details>
+    </summary>
+    <footer>
+        <p>Powered by Ahmad Husein <time datetime="2023">2023</time></p>
+    </footer>
+</body>
+</html>

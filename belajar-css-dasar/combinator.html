@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator</title>
+    <style>
+        /* Descendant Selector
+        div p{
+            color: red;
+        }*/
+
+        /* Child Selector
+        div > p{
+            color: red;
+        }*/
+        /* Adjacent Sibling selector
+        div + p{
+            color: red;
+        }*/
+
+        /*General sibling selector */
+        div ~ p{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <p>Ini P Pertama</p>
+    <div>
+        <article>
+            <p>Ini P Kedua</p>
+        </article>
+        <p>Ini P Ketiga</p>
+    </div>
+    <p>Ini P kelima</p>
+    <p>Ini P Keenam</p>
+</body>
+</html>

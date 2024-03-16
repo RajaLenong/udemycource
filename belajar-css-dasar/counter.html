@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        /*https://developer.mozilla.org/en-US/docs/Web/CSS/counter-set
+    https://developer.mozilla.org/en-US/docs/Web/CSS/counter-increment
+    https://developer.mozilla.org/en-US/docs/Web/CSS/counter-reset
+    https://developer.mozilla.org/en-US/docs/Web/CSS/counter*/
+        body{
+            counter-set: Judul 0;
+            counter-set: subjudul 0;
+        }
+        h1{
+            counter-increment: Judul 1;
+            counter-reset: subjudul;
+        }
+        h2{
+            counter-increment: subjudul 1;
+        }
+        h1::before{
+            content: counter(Judul) ". ";
+        }
+        h2::before{
+            content: counter(Judul)"." counter(subjudul)". ";
+        }
+    </style>
+</head>
+<body>
+    <h1>Judul</h1>
+    <h2>subjudul</h2>
+    <h2>subjudul</h2>
+    <h1>Judul</h1>
+    <h2>subjudul</h2>
+    <h2>subjudul</h2>
+    <h2>subjudul</h2>
+    <h1>Judul</h1>
+    <h2>subjudul</h2>
+    <h2>subjudul</h2>
+    <h1>Judul</h1>
+    <h2>subjudul</h2>
+    <h2>subjudul</h2>
+    <h2>subjudul</h2>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi string dan number</title>
+</head>
+<body>
+    <script>
+        //konversi string to int
+        const a = parseInt("1");
+        const b = 1;
+        const c = 1;
+        const jumlah = a + b;
+        
+
+        document.writeln(jumlah);
+        //konversi string to int
+        document.writeln(`<p>${parseInt("1.1eko")}</p>`);
+        document.writeln(`<p>${parseInt("eko1.1")}</p>`);
+        document.writeln(`<p>${parseInt("3.1")}</p>`);
+        //konversi string to float
+        document.writeln(`<p>${parseFloat("1.1eko")}</p>`);
+        document.writeln(`<p>${parseFloat("eko1.1")}</p>`);
+        document.writeln(`<p>${parseFloat("1.100")}</p>`);
+        //konversi tipe data Number to String
+        document.writeln(`<p>${Number("1.1eko")}</p>`);
+        document.writeln(`<p>${Number("eko1.1")}</p>`);
+        document.writeln(`<p>${Number("1.12")}</p>`);
+        document.writeln(`<p>${Number("eko")}</p>`);
+
+        //NaN and isNaN(Not a Number)
+        const first = Number("Salah"); //NaN
+        document.writeln(`<p>${first}</p>`);
+        document.writeln(`<p>${isNaN(first)}</p>`);
+        document.writeln(`<p>${isNaN(1000)}</p>`);
+        document.writeln(`<p>${isNaN(NaN)}</p>`);
+    </script>
+</body>
+</html>

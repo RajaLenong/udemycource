@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logika non boolean</title>
+</head>
+<body>
+    <script>
+        //Logika non boolean OR ||
+        console.info("NOL" || ""); //NOL
+        console.info(0 || "Ahmad"); //Ahmad
+        console.info(-0 || []); //[]
+        console.info("pertama" || "kedua"); //pertama
+        console.info(null || "NULL string"); //NULL string
+        console.info(undefined || "undefined string"); //undefined string
+        console.info(0 || null); //null
+        console.info(undefined || false); //false
+
+        //Logika non boolean AND &&
+        console.info("NOL" && ""); //""
+        console.info(0 && "Ahmad"); //0
+        console.info(-0 && []); //-0
+        console.info("pertama" && "kedua"); //kedua
+        console.info(null && "NULL string"); //null
+        console.info(undefined && "undefined string"); //undefined
+        console.info(0 && null); //0
+        console.info(false && undefined); //false
+    </script>
+</body>
+</html>

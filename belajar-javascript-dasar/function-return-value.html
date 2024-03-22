@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Return Value</title>
+</head>
+<body>
+    <script>
+        function myName(firstName, lastName){
+            const nama = (`<p>Hello : ${firstName} ${lastName}</p>`);
+            return nama;
+        }
+        const result = myName("Ahmad", "Husein");
+        document.writeln(`<p>${result}</p>`);
+
+        function getNilaiValue(Value){
+            if(Value > 80){
+                return "A";
+            }else if ( Value > 70){
+                return "B";
+            }else if(Value > 60){
+                return "C";
+            }else if (Value > 50){
+                return "D";
+            }else{
+                return "E";
+            }
+        }
+        const finalValue = getNilaiValue(75);
+        document.writeln(`<p>${finalValue}</p>`);
+
+        function isContain(array, searchValue){
+            for(const element of array){
+                console.info(`Iterasi Element ${element}`);
+                if(element === searchValue){
+                    return true;
+                }
+            }
+            return false;
+        }
+        const array = [1, 23, 34, 54, 66, 77, 90];
+        const search = 66;
+        const found = isContain(array, search);
+        document.writeln(`<p>${found}</p>`);
+    </script>
+</body>
+</html>

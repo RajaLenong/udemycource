@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Dalam Function</title>
+</head>
+<body>
+    <script>
+        //Functin di dalam function atau biasa disebut nested function
+        function outer(){
+
+            function inner(){
+                console.info("inner");
+            }
+            inner();
+            inner();
+        }
+        outer();
+        // inner(); //error inner is not defined / function dalam tidak boleh di panggil di function luar
+    </script>
+</body>
+</html>

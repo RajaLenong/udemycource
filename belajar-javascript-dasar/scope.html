@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope</title>
+</head>
+<body>
+    <script>
+        //variable global scope
+        let data = 0;
+
+        function name(){
+            //local scope name
+            data++;
+        }
+
+        function menu(){
+            //local scope menu
+        }
+
+        name();
+        name();
+
+        console.info(data);
+
+        function first(){
+            //local scope first
+            let setVariableFirst = "First";
+
+            function firstNested(){
+                console.info(setVariableFirst);
+            const firstNestedVariable = "First Nested";
+        }
+
+        firstNested();
+        console.info(firstNestedVariable);
+    }
+
+        function second(){
+            //local scope second
+            let setVariableSecond = "Second";
+        }
+
+        first();
+        second();
+
+        // console.info(setVariableFirst); //Error
+        // console.info(setVariableSecond); //Error
+
+    </script>
+</body>
+</html>
